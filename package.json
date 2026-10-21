@@ -1,0 +1,17 @@
+{
+  "name": "resilient-transport",
+  "version": "0.1.0",
+  "description": "Network-aware transport switching with anti-flap debounce, message de-duplication and an AES-256-GCM encryption decorator. Extracted and generalised from a production real-time translation system.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Alexander Deibel <hello@fintutto.de>",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
