@@ -2,7 +2,7 @@
 
 Keep a live session running when the network changes, without restarting it and without delivering messages twice. Small, dependency-free TypeScript with tests.
 
-Extracted from the transport layer of a production real-time translation system (a guide speaks, visitors read and hear it in their own language on their phones). Rewritten for standalone use, with the weak spots I found while extracting it fixed. See "What changed vs. the production code".
+Extracted from the transport layer of a production real-time translation system (a guide speaks, visitors hear it live in their own language on their phones, reading along optional). Rewritten for standalone use, with the weak spots I found while extracting it fixed. See "What changed vs. the production code".
 
 ```
                  offline, held for 5 s                  online or degraded, held for 5 s
